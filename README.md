@@ -7,7 +7,10 @@ docker build .
 ### run first time to docker-compose build the services inside docker-compose.yml
 docker-compose build    
 
-### run after make changes in docker-compose.yml and start the docker to run the app and services
+### run after make changes in docker-compose.yml and start the docker to run the app and services to clear the old depedencies
+docker-compose down
+
+### run after docker-compose down and after make changes in docker-compose.yml and start the docker to run the app and services
 docker-compose up
 
 ## Flake8
