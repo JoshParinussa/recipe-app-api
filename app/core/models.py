@@ -1,7 +1,6 @@
 """
 Database models.
 """
-from statistics import mode # noqa
 from django.db import models
 from django.contrib.auth.models import (
     AbstractBaseUser,
