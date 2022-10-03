@@ -1,13 +1,14 @@
 """
 Database models.
 """
-from statistics import mode
+from statistics import mode # noqa
 from django.db import models
 from django.contrib.auth.models import (
     AbstractBaseUser,
     BaseUserManager,
     PermissionsMixin,
 )
+
 
 class UserManager(BaseUserManager):
     """Manager for users."""
